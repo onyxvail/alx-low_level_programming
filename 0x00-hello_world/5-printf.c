@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Print a message with printf 
- * return always 0
+ * main - Print a message with printf
+ * Return: always 0 (Success)
  */
 int main(void)
 {
