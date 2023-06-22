@@ -1,17 +1,13 @@
 #include "main.h"
+#include  <stdio.h>
 
 /**
- * _strlen - Calculate the length of a string.
- * @str: The string.
- *
- * Return: The length of the string.
+ * main - check the code
+ * 
+ * Return : Always EXIT_SUCCESS 
  */
-int _strlen(const char *str)
+int main(void)
 {
-int length = 0;
-
-while (str[length] != '\0')
-length++;
-
-return length;
+printf("%d\n", _strlen("My DYn Lib"));
+return (EXIT_SUCCESS);
 }
