@@ -1,5 +1,3 @@
-all: build_executable
-
 CC = gcc
 SRC = main.c school.c
 all: $(SRC)
